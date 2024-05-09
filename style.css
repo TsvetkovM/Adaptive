@@ -1,0 +1,212 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Montserrat";
+}
+.container{
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9461c7;
+    text-align: center;
+    line-height: 180px;
+    font-size: 32px;
+    white-space: nowrap;
+}
+.container.responsive{
+    max-width: 1140px;
+    margin-bottom: 40px;
+
+}
+.container.adaptive{
+    max-width:400px;
+
+}
+@media screen and (min-width:600px){
+    .container{
+        background-color: #00bcd4;
+    }
+    .container.adaptive{
+        max-width: 600px;
+    }
+
+}
+@media screen and (min-width:900px){
+.container{
+    background-color: #8bc34a;
+}
+.container.adaptive{    
+    max-width: 900px;
+}
+
+}
+@media screen and (min-width:1140px){
+    .container{
+        background-color: #ff5252;
+    }
+    .container.adaptive{
+        max-width: 1140px;
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------------- */
+
+
+/* body {
+    background-color: #ffff;
+}
+
+@media (min-width:600px) {
+    body {
+        background-color: #4caf50;
+    }
+
+}
+
+@media (min-width:900px) {
+    body {
+        background-color: #3f54b3;
+    }
+} */
+/* 
+
+
+body{
+    color: #2a2a2a;
+    background-color: #fff;
+    line-height: 1.5;
+    font-family: "Montserrat";
+}
+@media (min-width:600px){
+    body{
+        background-color: #2196f3;
+        font-size: 20px;
+        color:#fff;
+    }
+
+}
+@media (min-width:900px){
+body{
+    background-color: #4ca;
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+} */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Poppins, sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a2a2a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 30px;
+    color: #ffff;
+}
+
+main {
+    padding: 20px;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* адаптив для планшету */
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+        align-items: first baseline;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
+
+/* адаптив для телефона */
+
+@media (max-width:480px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    a { 
+        font-size: 14px;
+        color: chocolate;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
